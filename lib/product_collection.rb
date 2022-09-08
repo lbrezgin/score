@@ -1,6 +1,3 @@
-
-# encoding: utf-8
-
 class ProductCollection
 
   PRODUCT_TYPES = {
@@ -24,7 +21,6 @@ class ProductCollection
         products << product_class.from_file(path)
       end
     end
-
     self.new(products)
   end
 
